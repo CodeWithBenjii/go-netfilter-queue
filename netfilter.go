@@ -30,6 +30,7 @@ type NFPacket struct {
 	id     C.uint32_t
 }
 
+// Sad
 // Set the verdict for the packet
 func (p *NFPacket) SetVerdict(v Verdict) {
 	C.nfq_set_verdict(p.qh, p.id, C.uint(v), 0, nil)
