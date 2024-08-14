@@ -1,5 +1,5 @@
-module github.com/CodeWithBenjii/go-netfilter-queue
+module asd
 
 go 1.23.0
 
-require github.com/google/gopacket v1.1.19
+require github.com/gopacket/gopacket v1.2.0
